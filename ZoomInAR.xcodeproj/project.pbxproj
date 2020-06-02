@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1024E1AD2486E0A1004FCFCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096E1FF247CBFED005D1252 /* ViewController.swift */; };
+		1024E1AE2486E0A1004FCFCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096E1FB247CBFED005D1252 /* AppDelegate.swift */; };
+		1024E1AF2486E0A1004FCFCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096E1FD247CBFED005D1252 /* SceneDelegate.swift */; };
+		1024E1B12486E0A1004FCFCB /* Pods_ZoomInAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65B346254EFFD761D84BB41 /* Pods_ZoomInAR.framework */; };
+		1024E1B32486E0A1004FCFCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1096E206247CBFEE005D1252 /* LaunchScreen.storyboard */; };
+		1024E1B42486E0A1004FCFCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1096E204247CBFEE005D1252 /* Assets.xcassets */; };
+		1024E1B52486E0A1004FCFCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1096E201247CBFED005D1252 /* Main.storyboard */; };
 		1096E1FC247CBFED005D1252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096E1FB247CBFED005D1252 /* AppDelegate.swift */; };
 		1096E1FE247CBFED005D1252 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096E1FD247CBFED005D1252 /* SceneDelegate.swift */; };
 		1096E200247CBFED005D1252 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096E1FF247CBFED005D1252 /* ViewController.swift */; };
@@ -17,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1024E1B92486E0A1004FCFCB /* ZoomInAR Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZoomInAR Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1024E1BA2486E0A1004FCFCB /* ZoomInAR copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ZoomInAR copy-Info.plist"; path = "/Users/sunil/Desktop/MyProject/MySecondProject/ZoomInAR copy-Info.plist"; sourceTree = "<absolute>"; };
 		1096E1F8247CBFEC005D1252 /* ZoomInAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomInAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1096E1FB247CBFED005D1252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1096E1FD247CBFED005D1252 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +40,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1024E1B02486E0A1004FCFCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1024E1B12486E0A1004FCFCB /* Pods_ZoomInAR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1096E1F5247CBFEC005D1252 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -56,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				1096E1F8247CBFEC005D1252 /* ZoomInAR.app */,
+				1024E1B92486E0A1004FCFCB /* ZoomInAR Dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +88,7 @@
 				1096E204247CBFEE005D1252 /* Assets.xcassets */,
 				1096E206247CBFEE005D1252 /* LaunchScreen.storyboard */,
 				1096E209247CBFEE005D1252 /* Info.plist */,
+				1024E1BA2486E0A1004FCFCB /* ZoomInAR copy-Info.plist */,
 			);
 			path = ZoomInAR;
 			sourceTree = "<group>";
@@ -88,13 +107,30 @@
 				CBBD82DB4B844AF2921A6435 /* Pods-ZoomInAR.debug.xcconfig */,
 				C43B5BEEDE88BBF20C952387 /* Pods-ZoomInAR.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1024E1AA2486E0A1004FCFCB /* ZoomInAR Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1024E1B62486E0A1004FCFCB /* Build configuration list for PBXNativeTarget "ZoomInAR Dev" */;
+			buildPhases = (
+				1024E1AB2486E0A1004FCFCB /* [CP] Check Pods Manifest.lock */,
+				1024E1AC2486E0A1004FCFCB /* Sources */,
+				1024E1B02486E0A1004FCFCB /* Frameworks */,
+				1024E1B22486E0A1004FCFCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZoomInAR Dev";
+			productName = ZoomInAR;
+			productReference = 1024E1B92486E0A1004FCFCB /* ZoomInAR Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
 		1096E1F7247CBFEC005D1252 /* ZoomInAR */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1096E20C247CBFEE005D1252 /* Build configuration list for PBXNativeTarget "ZoomInAR" */;
@@ -142,11 +178,22 @@
 			projectRoot = "";
 			targets = (
 				1096E1F7247CBFEC005D1252 /* ZoomInAR */,
+				1024E1AA2486E0A1004FCFCB /* ZoomInAR Dev */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1024E1B22486E0A1004FCFCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1024E1B32486E0A1004FCFCB /* LaunchScreen.storyboard in Resources */,
+				1024E1B42486E0A1004FCFCB /* Assets.xcassets in Resources */,
+				1024E1B52486E0A1004FCFCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1096E1F6247CBFEC005D1252 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -160,6 +207,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1024E1AB2486E0A1004FCFCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZoomInAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5710A57EFCB677AF6D9AD3E4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -185,6 +254,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1024E1AC2486E0A1004FCFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1024E1AD2486E0A1004FCFCB /* ViewController.swift in Sources */,
+				1024E1AE2486E0A1004FCFCB /* AppDelegate.swift in Sources */,
+				1024E1AF2486E0A1004FCFCB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1096E1F4247CBFEC005D1252 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,6 +296,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1024E1B72486E0A1004FCFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBBD82DB4B844AF2921A6435 /* Pods-ZoomInAR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDDXHYJE6G;
+				INFOPLIST_FILE = "ZoomInAR copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = com.happiestminds.ZoomInAR.test;
+				PRODUCT_NAME = "ZoomInAR Dev";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1024E1B82486E0A1004FCFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C43B5BEEDE88BBF20C952387 /* Pods-ZoomInAR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDDXHYJE6G;
+				INFOPLIST_FILE = "ZoomInAR copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = com.happiestminds.ZoomInAR.test;
+				PRODUCT_NAME = "ZoomInAR Dev";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		1096E20A247CBFEE005D1252 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -372,6 +491,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1024E1B62486E0A1004FCFCB /* Build configuration list for PBXNativeTarget "ZoomInAR Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1024E1B72486E0A1004FCFCB /* Debug */,
+				1024E1B82486E0A1004FCFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1096E1F3247CBFEC005D1252 /* Build configuration list for PBXProject "ZoomInAR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
