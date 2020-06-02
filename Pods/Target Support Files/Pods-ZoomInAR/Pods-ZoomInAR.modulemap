@@ -1,0 +1,6 @@
+framework module Pods_ZoomInAR {
+  umbrella header "Pods-ZoomInAR-umbrella.h"
+
+  export *
+  module * { export * }
+}
